@@ -1,0 +1,42 @@
+{
+
+"name": "Optocoupler-library",
+
+"keywords": "ESP32, Octocoupler, Input",
+
+"description": "Library for read value from optocoupler",
+
+"license": "MIT",
+
+"repository": {
+
+"type": "git",
+
+"url": "https://github.com/JakubAndrysek/Optocoupler-library.git"
+
+},
+
+"authors": [
+
+{
+
+"name": "Jakub Andrýsek",
+
+"email": "email@kubaandrysek.cz",
+
+"url": "http://www.kubaandrysek.cz",
+
+		 "maintainer": true
+
+}
+
+],
+
+"version": "1.0.0",
+
+"frameworks": [ "espidf", "arduino" ],
+
+"platforms": "espressif32"
+
+}
+
