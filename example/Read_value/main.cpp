@@ -12,7 +12,7 @@ void loop() {
   // put your main code here, to run repeatedly:
 
   Serial.print("Optocoupler on pin ");
-  Serial.print(opto.readPin());
+  Serial.print(opto.pinNumber());
   Serial.print(" state -> ");
   Serial.println(opto.state());
 

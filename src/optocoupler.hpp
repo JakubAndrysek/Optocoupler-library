@@ -7,7 +7,7 @@ class Optocoupler
     public:
         Optocoupler(int pin);
         bool state();
-        int readPin();
+        int pinNumber();
         void printState();
     
     private:

@@ -17,7 +17,7 @@ bool Optocoupler::state()
 }
 
 // Read opto pin
-int Optocoupler::readPin()
+int Optocoupler::pinNumber()
 {
     return _pin;
 }
