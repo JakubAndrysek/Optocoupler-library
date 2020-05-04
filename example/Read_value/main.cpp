@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "optocoupler.hpp"
+#include "Optocoupler.hpp"
 
 Optocoupler opto(35);
 
