@@ -1,4 +1,4 @@
-#include "optocoupler.hpp"
+#include "Optocoupler.hpp"
 #include <Arduino.h>
 
 // Set opto pin
