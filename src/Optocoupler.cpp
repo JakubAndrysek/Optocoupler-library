@@ -1,7 +1,10 @@
 #include "Optocoupler.hpp"
-#include <Arduino.h>
 
-// Set opto pin
+/**
+ * @brief Construct a new Optocoupler:: Optocoupler object
+ * 
+ * @param pin 
+ */
 Optocoupler::Optocoupler(int pin)
 {
     _pin = pin;
@@ -9,20 +12,30 @@ Optocoupler::Optocoupler(int pin)
 }
 
 
-// Read opto state
+/**
+ * @brief Read opto state
+ * 
+ * @return bool
+ */
 bool Optocoupler::state()
 {
     _state = !digitalRead(_pin);
     return _state;
 }
 
-// Read opto pin
+/**
+ * @brief Read opto pin
+ * 
+ * @return int 
+ */
 int Optocoupler::pinNumber()
 {
     return _pin;
 }
 
-// Print opto state
+/**
+ * @brief Print opto state 
+ */
 void Optocoupler::printState()
 {
     state();
