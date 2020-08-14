@@ -11,6 +11,26 @@ Optocoupler::Optocoupler(int pin)
     pinMode(_pin, INPUT);
 }
 
+/**
+ * @brief Construct a new Optocoupler:: Optocoupler object
+ * 
+ */
+Optocoupler::Optocoupler()
+{
+
+}
+
+/**
+ * @brief Set optocoupler pin number
+ * 
+ * @param pin 
+ */
+void Optocoupler::setPin(int pin)
+{
+    _pin = pin;
+    pinMode(_pin, INPUT);
+}
+
 
 /**
  * @brief Read opto state
@@ -28,7 +48,7 @@ bool Optocoupler::state()
  * 
  * @return int 
  */
-int Optocoupler::pinNumber()
+int Optocoupler::getPin()
 {
     return _pin;
 }

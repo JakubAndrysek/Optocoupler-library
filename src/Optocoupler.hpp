@@ -6,8 +6,10 @@ class Optocoupler
 {
     public:
         Optocoupler(int pin);
+        Optocoupler();
+        void setPin(int pin);
         bool state();
-        int pinNumber();
+        int getPin();
         void printState();
     
     private:
