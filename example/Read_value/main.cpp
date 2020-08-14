@@ -1,10 +1,11 @@
 #include <Arduino.h>
 #include "Optocoupler.hpp"
 
-Optocoupler opto(35);
+Optocoupler opto;
 
 void setup() {
   Serial.begin(115200);
+  opto.setPin(26);
 
 }
 
